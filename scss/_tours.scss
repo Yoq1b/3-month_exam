@@ -1,0 +1,390 @@
+.tours_wrapper {
+  width: 100%;
+  &_container {
+    width: 80%;
+    height: 560px;
+    margin-left: 300px;
+    position: relative;
+    margin-bottom: 140px;
+    &_title {
+      color: #1c1c1c;
+      font-family: Roboto;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    &_text {
+      color: #1c1c1c;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    &_position {
+      position: absolute;
+      top: 45px;
+      left: -140px;
+    }
+    &_cards {
+      height: 350px;
+      margin-top: 62px;
+      margin-bottom: 52px;
+      display: flex;
+      align-items: center;
+
+      &_card {
+        background-image: url(../img/daryo.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 20px;
+        width: 256px;
+        height: 340px;
+        border-radius: 30px;
+        margin-left: 32px;
+        &_day {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          &_eight {
+            width: 63px;
+            height: 21px;
+          }
+          &_twelewe {
+            width: 94px;
+            height: 21px;
+          }
+        }
+        &_italy {
+          margin-top: 222px;
+          color: #fff;
+          font-family: Roboto;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+        &_oktabr {
+          margin-top: 6px;
+          color: #fff;
+          font-family: Roboto;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        &_flex {
+          margin-top: 6px;
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          &_text {
+            color: #fff;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+          }
+        }
+      }
+      &_card:nth-child(2) {
+        background-image: url(../img/shar.png);
+        display: inline;
+      }
+      &_card:nth-child(3) {
+        background-image: url(../img/rim.png);
+        display: inline;
+      }
+      &_card:nth-child(4) {
+        background-image: url(../img/city.png);
+        display: inline;
+      }
+      &_card:hover {
+        width: 266px;
+        height: 350px;
+        transition: 0.4s;
+        -webkit-box-shadow: 1px 13px 71px -1px rgba(34, 60, 80, 1);
+        -moz-box-shadow: 1px 13px 71px -1px rgba(34, 60, 80, 1);
+        box-shadow: 1px 13px 71px -1px rgba(34, 60, 80, 1);
+      }
+    }
+    &_flexdiv {
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+      &_img {
+        margin-left: 35px;
+        margin-bottom: 140px;
+        width: 1120px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .tours_wrapper {
+    width: 100%;
+    &_container {
+      width: 90%;
+      height: 560px;
+      margin-left: 48px;
+      position: relative;
+      &_title {
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      &_text {
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      &_position {
+        position: absolute;
+        top: -15px;
+        left: 350px;
+      }
+      &_cards {
+        height: 350px;
+        margin-top: 62px;
+        margin-bottom: 52px;
+        display: flex;
+        align-items: center;
+
+        &_card {
+          background-image: url(../img/daryo.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 20px;
+          width: 256px;
+          height: 340px;
+          border-radius: 30px;
+          margin-left: 0px;
+          margin: 0 auto;
+          &_day {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            &_eight {
+              width: 63px;
+              height: 21px;
+            }
+            &_twelewe {
+              width: 94px;
+              height: 21px;
+            }
+          }
+          &_italy {
+            margin-top: 222px;
+            color: #fff;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+          &_oktabr {
+            margin-top: 6px;
+            color: #fff;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+          &_flex {
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            &_text {
+              color: #fff;
+              font-family: Roboto;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: normal;
+            }
+          }
+        }
+        &_card:nth-child(2) {
+          background-image: url(../img/shar.png);
+          display: inline;
+        }
+        &_card:nth-child(3) {
+          background-image: url(../img/rim.png);
+          display: inline;
+        }
+        &_card:nth-child(4) {
+          background-image: url(../img/city.png);
+          display: none;
+        }
+        &_card:hover {
+          width: 266px;
+          height: 350px;
+          transition: 0.4s;
+          -webkit-box-shadow: 1px 13px 71px -1px rgba(34, 60, 80, 1);
+          -moz-box-shadow: 1px 13px 71px -1px rgba(34, 60, 80, 1);
+          box-shadow: 1px 13px 71px -1px rgba(34, 60, 80, 1);
+        }
+      }
+      &_flexdiv {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        &_img {
+          margin-left: 35px;
+          margin-bottom: 140px;
+          width: 850px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tours_wrapper {
+    width: 100%;
+    &_container {
+      width: 90%;
+      height: 560px;
+      margin-left: 30px;
+      position: relative;
+      &_title {
+        text-align: center;
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      &_text {
+        text-align: center;
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      &_position {
+        width: 120px;
+        position: absolute;
+        top: -60px;
+        left: 115px;
+      }
+      &_cards {
+        height: 350px;
+        margin-top: 62px;
+        margin-bottom: 52px;
+        display: flex;
+        align-items: center;
+
+        &_card {
+          background-image: url(../img/daryo.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding: 20px;
+          width: 256px;
+          height: 340px;
+          border-radius: 30px;
+          margin-left: 0px;
+          margin: 0 auto;
+          &_day {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            &_eight {
+              width: 63px;
+              height: 21px;
+            }
+            &_twelewe {
+              width: 94px;
+              height: 21px;
+            }
+          }
+          &_italy {
+            margin-top: 222px;
+            color: #fff;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+          &_oktabr {
+            margin-top: 6px;
+            color: #fff;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+          &_flex {
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            &_text {
+              color: #fff;
+              font-family: Roboto;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: normal;
+            }
+          }
+        }
+        &_card:nth-child(2) {
+          background-image: url(../img/shar.png);
+          display: none;
+        }
+        &_card:nth-child(3) {
+          background-image: url(../img/rim.png);
+          display: none;
+        }
+        &_card:nth-child(4) {
+          background-image: url(../img/city.png);
+          display: none;
+        }
+        &_card:hover {
+          width: 266px;
+          height: 350px;
+          transition: 0.4s;
+          -webkit-box-shadow: 1px 13px 71px -1px rgba(34, 60, 80, 1);
+          -moz-box-shadow: 1px 13px 71px -1px rgba(34, 60, 80, 1);
+          box-shadow: 1px 13px 71px -1px rgba(34, 60, 80, 1);
+        }
+      }
+      &_flexdiv {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        &_img {
+          margin-left: 35px;
+          
+          width: 300px;
+        }
+      }
+    }
+  }
+}

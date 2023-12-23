@@ -1,0 +1,451 @@
+.hotels_wrapper {
+  width: 100%;
+  background: #f8f8f8;
+  &_container {
+    width: 80%;
+    margin: 0 auto;
+    &_img {
+      width: 172px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+    &_title {
+      text-align: center;
+      color: #1c1c1c;
+      font-family: Roboto;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    &_text {
+      margin-top: 4px;
+      margin-bottom: 52px;
+      text-align: center;
+      color: #1c1c1c;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    &_cards {
+      margin-bottom: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 300px;
+      &_card {
+        background-image: url(../img/ritz.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 380px;
+        height: 260px;
+        border-radius: 30px;
+        padding-top: 25px;
+        padding-left: 30px;
+        padding-right: 25px;
+        padding-bottom: 26px;
+        &_star {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-end;
+          &_num {
+            color: #fff;
+            text-align: right;
+            font-family: Chandra;
+            font-size: 65px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+        }
+        &_end {
+          display: flex;
+          flex-direction: column;
+          margin-top: 90px;
+          margin-bottom: 26px;
+          &_text {
+            color: #fff;
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+          &_flex {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            &_text {
+              color: #fff;
+              font-family: Roboto;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 300;
+              line-height: normal;
+            }
+            &_img {
+              width: 41px;
+              height: 16px;
+            }
+          }
+        }
+      }
+      &_card:nth-child(1) {
+        background-image: url(../img/ritz.png);
+        display: inline;
+      }
+      &_card:nth-child(2) {
+        background-image: url(../img/villa.png);
+        display: inline;
+      }
+      &_card:nth-child(3) {
+        background-image: url(../img/ikos.png);
+        display: inline;
+      }
+      &_card:hover {
+        box-shadow: 1px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 1px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 1px 28px 3px rgba(0, 0, 0, 0.75);
+        width: 400px;
+        height: 300px;
+        transition: 0.4s;
+      }
+      &_btn {
+        display: none;
+        width: 167px;
+        height: 40px;
+        border-radius: 30px;
+        border: 1px solid #6a6a6a;
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background: #fff;
+      }
+      &_btn:hover {
+        cursor: pointer;
+        color: #ec1c24;
+        border-color: #ec1c24;
+      }
+    }
+    &_scroll {
+      margin-bottom: 140px;
+      width: 1020px;
+      padding-left: 170px;
+    }
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .hotels_wrapper {
+    width: 100%;
+    background: #f8f8f8;
+    &_container {
+      width: 80%;
+      margin: 0 auto;
+      &_img {
+        width: 172px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+      &_title {
+        text-align: center;
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      &_text {
+        margin-top: 4px;
+        margin-bottom: 52px;
+        text-align: center;
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      &_cards {
+        margin-bottom: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 300px;
+        &_card {
+          background-image: url(../img/ritz.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          width: 380px;
+          height: 260px;
+          border-radius: 30px;
+          padding-top: 25px;
+          padding-left: 30px;
+          padding-right: 25px;
+          padding-bottom: 26px;
+          &_star {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            &_num {
+              color: #fff;
+              text-align: right;
+              font-family: Chandra;
+              font-size: 65px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              text-transform: uppercase;
+            }
+          }
+          &_end {
+            display: flex;
+            flex-direction: column;
+            margin-top: 90px;
+            margin-bottom: 26px;
+            &_text {
+              color: #fff;
+              font-family: Roboto;
+              font-size: 28px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              text-transform: uppercase;
+            }
+            &_flex {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              &_text {
+                color: #fff;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+              }
+              &_img {
+                width: 41px;
+                height: 16px;
+              }
+            }
+          }
+        }
+        &_card:nth-child(1) {
+          background-image: url(../img/ritz.png);
+          display: none;
+        }
+        &_card:nth-child(2) {
+          background-image: url(../img/villa.png);
+          display: flex;
+          margin: 0 auto;
+        }
+        &_card:nth-child(3) {
+          background-image: url(../img/ikos.png);
+          display: none;
+        }
+        &_card:hover {
+          box-shadow: 1px 1px 28px 3px rgba(0, 0, 0, 0.75);
+          -webkit-box-shadow: 1px 1px 28px 3px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 1px 1px 28px 3px rgba(0, 0, 0, 0.75);
+          width: 400px;
+          height: 300px;
+          transition: 0.4s;
+        }
+        &_btn {
+          display: none;
+          width: 167px;
+          height: 40px;
+          border-radius: 30px;
+          border: 1px solid #6a6a6a;
+          color: #1c1c1c;
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          background: #fff;
+        }
+        &_btn:hover {
+          cursor: pointer;
+          color: #ec1c24;
+          border-color: #ec1c24;
+        }
+      }
+
+      &_scroll {
+        margin-bottom: 140px;
+        width: 100%;
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hotels_wrapper {
+    width: 100%;
+    background: #f8f8f8;
+    &_container {
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 80px;
+      height: 900px;
+      &_img {
+        width: 122px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+      &_title {
+        text-align: center;
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      &_text {
+        margin-top: 4px;
+        margin-bottom: 52px;
+        text-align: center;
+        color: #1c1c1c;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      &_cards {
+        margin-top: 230px;
+        gap: 12px;
+        margin-bottom: 52px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        &_card {
+          background-image: url(../img/ritz.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          width: 100%;
+          height: 221px;
+          border-radius: 30px;
+          padding-top: 25px;
+          padding-left: 30px;
+          padding-right: 25px;
+          padding-bottom: 26px;
+          &_star {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-end;
+            &_num {
+              color: #fff;
+              text-align: right;
+              font-family: Chandra;
+              font-size: 48px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              text-transform: uppercase;
+            }
+          }
+          &_end {
+            display: flex;
+            flex-direction: column;
+            margin-top: 90px;
+            margin-bottom: 26px;
+            &_text {
+              color: #fff;
+              font-family: Roboto;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              text-transform: uppercase;
+            }
+            &_flex {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              &_text {
+                color: #fff;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+              }
+              &_img {
+                width: 41px;
+                height: 16px;
+              }
+            }
+          }
+        }
+        &_card:nth-child(1) {
+          background-image: url(../img/ritz.png);
+          display: inline;
+        }
+        &_card:nth-child(2) {
+          background-image: url(../img/villa.png);
+          display: inline;
+          margin: 0 auto;
+        }
+        &_card:nth-child(3) {
+          background-image: url(../img/ikos.png);
+          display: inline;
+        }
+        &_card:hover {
+          box-shadow: none;
+          width: 100%;
+          height: 221px;
+          transition: 0.4s;
+        }
+        &_btn {
+          display: inline;
+          width: 167px;
+          height: 70px;
+          border-radius: 30px;
+          border: 1px solid #6a6a6a;
+          color: #1c1c1c;
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          background: #fff;
+        }
+        &_btn:hover {
+          cursor: pointer;
+          color: #ec1c24;
+          border-color: #ec1c24;
+        }
+      }
+
+      &_scroll {
+        margin-bottom: 140px;
+        width: 100%;
+        padding-left: 10px;
+      }
+    }
+  }
+}

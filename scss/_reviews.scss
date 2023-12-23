@@ -1,0 +1,312 @@
+.reviews_wrapper {
+  width: 100%;
+  &_img {
+    margin: 0 auto;
+    display: flex;
+  }
+  &_title {
+    color: #1c1c1c;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  &_text {
+    margin-bottom: 67px;
+    color: #1c1c1c;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  &_container {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 110px;
+    width: 80%;
+    height: 422px;
+    margin-left: 300px;
+    &_card {
+      border-radius: 30px;
+      background: #f8f8f8;
+      width: 352px;
+      padding-top: 10px;
+      padding-left: 24px;
+      &_img {
+        border-radius: 50%;
+        margin: 0 auto;
+        display: flex;
+      }
+      &_stars {
+        padding-top: 25px;
+        padding-bottom: 8px;
+        margin: 0 auto;
+        display: flex;
+      }
+      &_title {
+        margin-bottom: 5px;
+        color: #6b6b6b;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+      }
+      &_text {
+        margin-bottom: 20px;
+        width: 304px;
+        color: #6b6b6b;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      &_tekst {
+        width: 310px;
+        color: var(--, #1c1c1c);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px; /* 137.5% */
+      }
+    }
+    &_card:hover {
+      cursor: pointer;
+      box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.75);
+    }
+  }
+  &_hr {
+    margin-bottom: 141px;
+    margin-left: 300px;
+    width: 1120px;
+  }
+}
+.lkj {
+  display: inline;
+}
+.ghn {
+  display: inline;
+}
+
+@media screen and (max-width: 1030px) {
+  .reviews_wrapper {
+    width: 100%;
+    &_img {
+      margin: 0 auto;
+      display: flex;
+    }
+    &_title {
+      color: #1c1c1c;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    &_text {
+      margin-bottom: 67px;
+      color: #1c1c1c;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    &_container {
+      display: flex;
+      gap: 52px;
+      margin-bottom: 110px;
+      width: 70%;
+      height: 422px;
+      margin-left: 200px;
+      &_card {
+        border-radius: 30px;
+        background: #f8f8f8;
+        width: 352px;
+        padding-top: 10px;
+        padding-left: 24px;
+        &_img {
+          border-radius: 50%;
+          margin: 0 auto;
+          display: flex;
+        }
+        &_stars {
+          padding-top: 25px;
+          padding-bottom: 8px;
+          margin: 0 auto;
+          display: flex;
+        }
+        &_title {
+          margin-bottom: 5px;
+          color: #6b6b6b;
+          text-align: center;
+          font-family: Roboto;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+        &_text {
+          margin-bottom: 20px;
+          width: 304px;
+          color: #6b6b6b;
+          text-align: center;
+          font-family: Roboto;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+        }
+        &_tekst {
+          width: 310px;
+          color: var(--, #1c1c1c);
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 22px; /* 137.5% */
+        }
+      }
+      &_card:hover {
+        cursor: pointer;
+        box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.75);
+      }
+    }
+    &_hr {
+      margin-bottom: 141px;
+      margin-left: 200px;
+      width: 720px;
+    }
+  }
+  .lkj {
+    display: none;
+  }
+  .ghn {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .reviews_wrapper {
+    width: 100%;
+    &_img {
+      margin: 0 auto;
+      display: flex;
+    }
+    &_title {
+      color: #1c1c1c;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    &_text {
+      margin-bottom: 67px;
+      color: #1c1c1c;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    &_container {
+      display: flex;
+      gap: 52px;
+      margin-bottom: 110px;
+      width: 70%;
+      height: 422px;
+      margin-left: 25px;
+      &_card {
+        border-radius: 30px;
+        background: #f8f8f8;
+        width: 352px;
+        padding-top: 10px;
+        padding-left: 24px;
+        &_img {
+          border-radius: 50%;
+          margin: 0 auto;
+          display: flex;
+        }
+        &_stars {
+          padding-top: 25px;
+          padding-bottom: 8px;
+          margin: 0 auto;
+          display: flex;
+        }
+        &_title {
+          margin-bottom: 5px;
+          color: #6b6b6b;
+          text-align: center;
+          font-family: Roboto;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+        &_text {
+          margin-bottom: 20px;
+          width: 304px;
+          color: #6b6b6b;
+          text-align: center;
+          font-family: Roboto;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+        }
+        &_tekst {
+          width: 310px;
+          color: var(--, #1c1c1c);
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 22px; /* 137.5% */
+        }
+      }
+      &_card:hover {
+        cursor: pointer;
+        box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.75);
+      }
+    }
+    &_hr {
+      margin-bottom: 141px;
+      margin-left: 25px;
+      width: 330px;
+    }
+  }
+  .lkj {
+    display: none;
+  }
+  .ghn {
+    display: none;
+  }
+}
